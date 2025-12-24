@@ -14,4 +14,5 @@ import pytest
 def test_find_max_empty_list():
     with pytest.raises(ValueError):
         find_max([])
+def test_find_max_other_positive_numbers():
 
