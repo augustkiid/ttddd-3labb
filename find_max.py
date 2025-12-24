@@ -7,3 +7,10 @@ def find_max(numbers):
     if len(numbers) > 2 and numbers[2] > max_value:
         max_value = numbers[2]
     return max_value
+def find_max(numbers):
+    max_value = numbers[0]
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
+
