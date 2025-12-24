@@ -5,4 +5,6 @@ def test_find_max_positive_numbers():
 
 def test_find_max_other_positive_numbers():
     assert find_max([5, 1, 4]) == 5
+def test_find_max_single_element():
+    assert find_max([42]) == 42
 
